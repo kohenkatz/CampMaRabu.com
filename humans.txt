@@ -1,0 +1,15 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Webmaster and Developer: Moshe Katz
+  Site: http://www.ymkatz.net
+
+/* THANKS */
+   Metamorphosis Website Design ( http://www.metamorphozis.com/free_templates/free_templates.php )
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Theme: Metamorph_SunGoesDown
+  Software: 
