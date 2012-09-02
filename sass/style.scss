@@ -1,0 +1,22 @@
+//@import "compass/reset";
+@import "compass";
+@import "normalize";
+@import "h5bp";
+
+body {
+	background: #000000 url('/img/bg.jpg') no-repeat fixed;
+	background-size: 100%;
+	color: #ffffff;
+}
+
+.topbar {
+	height: 60px;
+	/* http://www.colorzilla.com/gradient-editor/#f87a14+0,f87a14+12,f17714+24,d9680c+51,bf5905+76,b85504+86,ae4f00+100;Custom */
+	background-color: #f87a14; // Old browsers
+	$experimental-support-for-svg: true; // IE9 SVG, doesn't need conditional override of 'filter' to 'none' because we only apply filter conditionally to 6-8
+	@include background-image(linear-gradient(top, #f87a14 0%,#f87a14 12%,#f17714 24%,#d9680c 51%,#bf5905 76%,#b85504 86%,#ae4f00 100%));
+}
+
+@import "print";
+
+@import "ie";

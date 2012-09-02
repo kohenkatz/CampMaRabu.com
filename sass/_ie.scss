@@ -1,0 +1,13 @@
+/** IE-specific Styles */
+
+.lt-ie9 {
+	.topbar {
+		@include filter-gradient(#f87a14, #ae4f00, vertical); // IE6-8
+	}
+}
+
+.no-cssgradients {
+	.topbar {
+		// put background image here maybe?
+	}
+}
