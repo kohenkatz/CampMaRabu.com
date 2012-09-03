@@ -12,7 +12,7 @@
 
 body {
 	background: #000000 url('/img/bg.jpg') no-repeat fixed;
-	background-size: 100%;
+	background-size: cover;
 	color: #ffffff;
 }
 
@@ -131,6 +131,7 @@ body {
 	padding: 10px;
 	width: $pagewidth - 20;
 	margin-top: 20px;
+	color: #000;
 }
 
 @import "page-text-layout";
