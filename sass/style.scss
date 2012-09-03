@@ -103,8 +103,7 @@ body {
 	background-color: #b35305; // Old browsers
 	$experimental-support-for-svg: true; // IE9 SVG, doesn't need conditional override of 'filter' to 'none' because we only apply filter conditionally to 6-8
 	@include background-image(linear-gradient(top, #b35305 0%,#b45406 7%,#c25c09 29%,#e87211 74%,#f77a14 100%));
-	
-	height: 329px;
+
 	padding: 11px;
 }
 #prew_but_box{
