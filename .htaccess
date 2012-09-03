@@ -91,13 +91,13 @@ RewriteRule "(^|/)\." - [F]
   Satisfy All
 </FilesMatch>
 
-# Rename session cookie to something else, than PHPSESSID
-php_value session.name myid
-# Level of log detail - log all errors
-# php_value error_reporting -1
-
-# Increase cookie security
 <IfModule php5_module>
+  # Rename session cookie to something else, than PHPSESSID
+  php_value session.name myid
+  # Level of log detail - log all errors
+  # php_value error_reporting -1
+
+  # Increase cookie security
   php_value session.cookie_httponly true
 </IfModule>
 
