@@ -141,23 +141,24 @@ h1 {
     @include trailer(1, $h1-font-size);
 }
 
-h2 {
-    @include adjust-font-size-to( $h2-font-size );
-    @include leader(1, $h2-font-size);
-    @include trailer(1, $h2-font-size);
-}
-
-h3 {
-    @include adjust-font-size-to( $h3-font-size );
-    @include leader(1, $h3-font-size);
-    @include trailer(1, $h3-font-size);
-}
-
-h4 {
-    @include adjust-font-size-to( $h4-font-size );
-    @include leader(1, $h4-font-size);
-    @include trailer(1, $h4-font-size);
-}
+// Our theme contradicts with these
+//h2 {
+//    @include adjust-font-size-to( $h2-font-size );
+//    @include leader(1, $h2-font-size);
+//    @include trailer(1, $h2-font-size);
+//}
+//
+//h3 {
+//    @include adjust-font-size-to( $h3-font-size );
+//    @include leader(1, $h3-font-size);
+//    @include trailer(1, $h3-font-size);
+//}
+//
+//h4 {
+//    @include adjust-font-size-to( $h4-font-size );
+//    @include leader(1, $h4-font-size);
+//    @include trailer(1, $h4-font-size);
+//}
 
 h5 {
     @include adjust-font-size-to( $h5-font-size );

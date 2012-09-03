@@ -5,6 +5,11 @@
 @import "nivo-slider";
 @import "base";
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background: #000000 url('/img/bg.jpg') no-repeat fixed;
 	background-size: 100%;
@@ -105,6 +110,7 @@ body {
 	@include background-image(linear-gradient(top, #b35305 0%,#b45406 7%,#c25c09 29%,#e87211 74%,#f77a14 100%));
 
 	padding: 11px;
+	margin-bottom: 20px; /* This is because the bullets are absolutely positioned */
 }
 #prew_but_box{
 	width: 76px;
@@ -119,8 +125,15 @@ body {
 	float: right;
 }
 
+.pagebody {
+	background: rgba(255,255,255,0.4);
+	padding: 10px;
+	width: $pagewidth - 20;
+	margin-top: 20px;
+}
+
+@import "page-text-layout";
+
 @import "nivo-slider-ourtheme";
-
 @import "print";
-
 @import "ie";
