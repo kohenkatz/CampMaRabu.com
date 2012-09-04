@@ -36,6 +36,7 @@ body {
 
 .pageheader {
 	padding-top: 9px;
+	position: relative;
 }
 
 /* MENU */
@@ -82,7 +83,10 @@ body {
 #logo{
 	height: 120px;
 	padding-top: 60px;
-	position: relative;
+	
+	// Can't use position:relative here because it prevents other elements from being clicked,
+	// and the only fix doesn't work in IE (pointer-events:none). Instead work with parent's position:relative.
+	//position: relative;
 
 	div {
 		font-size: 21px;
@@ -90,7 +94,7 @@ body {
 		font-weight: bold;
 		position: absolute;
 		left: 45px;
-		bottom: 10px;
+		top: 157px;
 	}
 }
 
