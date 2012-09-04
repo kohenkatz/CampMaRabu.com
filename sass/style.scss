@@ -131,6 +131,60 @@ body {
 
 @import "page-text-layout";
 
+/* FOOTER */
+
+.pagefooter {
+	padding: 10px 0px 20px 0px;
+	color: #000000;
+
+	a {
+		color: #000000;
+		font-weight: bold;
+		
+		&:hover{
+			color: #c70000;
+		}
+	}
+}
+
+.footer_bottom
+{
+	padding-top: 10px;
+	font-size: 10px;
+	padding-left: 60px;
+
+	a {
+		font-weight: normal;
+	}
+}
+
+.row-top {width:100%;padding:33px 0 42px;}
+.row-padding {padding:0 62px}
+.col-1, .col-2, .col-3, .col-4  {float:left}
+.list-services, .list-1 { padding: 0;}
+.list-services li {line-height:24px;padding-left:28px; list-style:none}
+.list-services li a {text-decoration:none}
+.list-services li a:hover {text-decoration:underline}
+.list-services li.item-1 {background:url(images/facebook.png) 0 3px no-repeat}
+.list-services li.item-2 {background:url(images/twitter.png) 0 3px no-repeat}
+.list-services li.item-3 {background:url(images/linkedin.png) 0 3px no-repeat}
+.menu li a, .list-1 li a,  {text-decoration:none}
+.list-1 li {line-height:24px;padding-left:10px;background:url(images/marker.gif) 0 10px no-repeat;  list-style:none}
+.list-1 li a {display:inline-block;color:#9d9d9d}
+.list-1 li a:hover {text-decoration:underline}
+
+.indent3 {padding-top:28px; text-align: right;}
+.footer-logo {display:block;color:#ccc;font-size:30px;line-height:1em;text-transform:uppercase;letter-spacing:-1px;font-weight:400;margin-bottom:5px}
+.footer-logo strong {color:#ccc;text-transform:none;display:inline-block}
+.phone {display:inline-block;font-size: 24px;line-height:1.2em;color:#ccc;letter-spacing:-1px;padding-left:5px}
+.phone strong {color:#ccc}
+.col-1 {width:190px;margin-right:55px}
+.col-2 {width:110px;margin-right:55px}
+.col-3 {width:140px;margin-right:65px}
+.col-4 {width:235px}
+
+/* END FOOTER */
+
 @import "nivo-slider-ourtheme";
 @import "print";
 @import "ie";
