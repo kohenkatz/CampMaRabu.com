@@ -97,7 +97,6 @@ xml_parser_free($p);
 #----------------------------------------------------------------------------
 if ($STANDALONE_MODE == "TRUE") {
 	require('../inc/header.html');
-	echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />" . "\n</head>" . "\n<body>" . "\n";
 }
 
 #----------------------------------------------------------------------------

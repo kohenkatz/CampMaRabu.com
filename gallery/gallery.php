@@ -113,19 +113,7 @@ xml_parser_free($p);
 # Output headers if required 
 #----------------------------------------------------------------------------
 if ($STANDALONE_MODE == "TRUE") {
-
 	require('../inc/header.html');
-	echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />" . "\n</head>" . "\n<body>" . "\n";
-
-	#----------------------------------------------------------------------------
-	# Scripts and styles for lightbox, if enabled.  Assumes default install in ./
-	#----------------------------------------------------------------------------
-	if ($USE_LIGHTBOX == "TRUE") {
-		echo "<script type=\"text/javascript\" src=\"js/prototype.js\"></script>";
-		echo "<script type=\"text/javascript\" src=\"js/scriptaculous.js?load=effects,builder\"></script>";
-		echo "<script type=\"text/javascript\" src=\"js/lightbox.js\"></script>";
-		echo "<link rel=\"stylesheet\" href=\"css/lightbox.css\" type=\"text/css\" media=\"screen\" />";
-	}
 }
 
 #----------------------------------------------------------------------------
