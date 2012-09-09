@@ -38,10 +38,8 @@ options = new LightboxOptions
 lightbox = new Lightbox options
 */
 
-(function() {
-  var $, Lightbox, LightboxOptions;
-
-  $ = jQuery;
+(function($) {
+  var Lightbox, LightboxOptions;
 
   LightboxOptions = (function() {
 
@@ -346,4 +344,4 @@ lightbox = new Lightbox options
     return lightbox = new Lightbox(options);
   });
 
-}).call(this);
+}).call(jQuery);
