@@ -196,6 +196,17 @@ body {
 	@include single-box-shadow(#222, 3px, 3px, 3px);
 }
 
+.packinglist {
+	li {
+		width: 300px;
+		float: left;
+		
+	}
+	li.big {
+		width: 100%;
+	}
+}
+
 @import "nivo-slider-ourtheme";
 @import "print";
 @import "ie";
