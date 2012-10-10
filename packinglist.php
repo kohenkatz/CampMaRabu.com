@@ -15,38 +15,59 @@
 	<div class="topbar fullwidth">&nbsp;</div>
 	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 	<header class="pageheader pagewidth clearfix">
-		<nav id="topmenu">
-			<ul>
-				<li class="menubutton"><a href="/">Home</a></li>
-				<li class="menubutton"><a href="/about.html" class="active">About Us</a></li>
-				<li class="menubutton"><a href="/gallery/">Gallery</a></li>
-				<li class="menubutton"><a href="/itinerary.html">Itinerary</a></li>
-				<li class="menubutton"><a href="/forms.html">Prices and Application</a></li>
-				<li class="menubutton"><a href="/contact.html">Contact Us</a></li>
-			</ul>
-		</nav>
+		<?php require './inc/menu.php' ?>
 		<div id="logo">
 			<h1><a href="/"><img src="/img/marabu-new.png" style="width:250px;height:99px;" /></a></h1>
 			<div dir="rtl">&#1502;&#1492;&nbsp;&#1512;&#64305;&#1493;&nbsp;&#1502;&#1506;&#64299;&#1497;&#1498;&nbsp;&#1492;&lsquo;</div>
 		</div>
 	</header>
 	<div role="main" class="pagebody clearfix">
-		<h2>Contact Us</h2>
-		<div class="col-1">
-						<dl class="address">
-							<dt>Main Address</dt>
-							<dd>10714 Meadowhill Road</dd>
-							<dd>Silver Spring, MD 20901</dd>
-							<dt><span>Email:</span>&nbsp;&nbsp;<a href="/contact.html">campmarabu at aol.com</a></dt>
-						</dl>
-					</div>
-		<div class="col-4">
-						<div class="indent3">
-							<strong class="footer-logo" style="color:#333">Camp Ma Rabu</strong>
-							<strong class="phone" style="color:#333">(301) 681-3411</strong>
-							<strong class="phone" style="color:#333">Cell: (301) 928-0646</strong>
-						</div>
-					</div>
+		<h2>Suggested Packing List</h2>
+		<p></p>
+		<ul class="packinglist clearfix">
+		<li>8 Pairs of socks</li>
+		<li>1 Pairs of Shabbos socks</li>
+		<li>6 T-Shirts</li>
+		<li>1 Sweatshirt</li>
+		<li>1 Davening jacket</li>
+		<li>7 Underpants</li>
+		<li>7 Undershirts</li>
+		<li>1 Bathrobe </li>
+		<li>1 Pajamas</li>
+		<li>4 Pairs of pants or shorts</li>
+		<li>1 Pair sneakers</li>
+		<li>1 Shabbos outfit</li>
+		<li>2 Shabbos shirts</li>
+		<li>1 Shabbos shoes</li>
+		<li>1 Laundry bag</li>
+		<li>1 Bath towel</li>
+		<li>1 Bathing suit</li>
+		<li>2 Tzitzis</li>
+		<li>2 Yarmulkes</li>
+		<li>1 Sun hat</li>
+		<li>1 weekday davening hat: optional<br>
+		    (no hat box)</li>
+		<li>Tefillin</li>
+		<li>Pocket Siddur</li>
+		<li>1 Toothbrush</li>
+		<li>Toothpaste</li>
+		<li>Shampoo</li>
+		<li>Comb </li>
+		<li>Soap</li>
+		<li>Suntan lotion (Large size - High level protection)</li>
+		<li>Camel Pack (64 oz.)</li>
+		<li>Passport</li>
+		<li>(Goggles)</li>
+		<li>Camera</li>
+		<li>Chapstick</li>
+		<li>Crocs</li>
+		<li class="big">One backpack for carry-on and Tefillin.<br>
+		    <span class="note">The larger Camelbaks<sup>TM</sup> are available (See: <a href="http://www.sunnysports.com/Cat/Context_2200/Hydration_and_Drinking/2210.html#!1" target="_blank">sunnysports.com</a> for good prices) and can also be used as a backpack.</span></li>
+		<li class="big">Stamps, paper, pen, envelopes, and addresses of people who want to hear from you!</li>
+		<li class="big">We recommend the campers bring spending money of $50 or more. This will be used for soda, extra snacks, souvenirs.... A money belt is a safe place for money and other important items.</li>
+		</ul>
+		<p style="text-align: center"><strong>ALL CLOTHING MUST BE LABELED!</strong></p>
+		<p><strong>All campers' items must be packed into one soft, small duffle bag with approximate measurements of 12"H 28"W and 12"D weight limit 50lb.</strong>  I encourage bags with wheels as we will be carrying the bags on and off the bus frequently.  Any luggage not fitting these guidelines will need to be repacked into appropriate luggage before leaving.   Thank you for your cooperation in this matter.</p>
 	</div>
 	<footer class="pagefooter pagewidth">
 		<div class="row-top">
@@ -58,12 +79,12 @@
 							<dt>Main Address</dt>
 							<dd>10714 Meadowhill Road</dd>
 							<dd>Silver Spring, MD 20901</dd>
-							<dt><span>Email:</span>&nbsp;&nbsp;<a href="/contact.html">campmarabu at aol.com</a></dt>
+							<dt><span>Email:</span>&nbsp;&nbsp;<a href="/contact.php">campmarabu at aol.com</a></dt>
 						</dl>
 					</div>
 					<div class="col-2">
 						&nbsp;
-						<!--<h2>Follow Us:</h2>
+						<!--<h2>Quick Links:</h2>
 						<ul class="list-services">
 							<li class="item-1"><a href="#">Facebook</a></li>
 							<li class="item-2"><a href="#">Twitter</a></li>

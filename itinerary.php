@@ -15,16 +15,7 @@
 	<div class="topbar fullwidth">&nbsp;</div>
 	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 	<header class="pageheader pagewidth clearfix">
-		<nav id="topmenu">
-			<ul>
-				<li class="menubutton"><a href="/">Home</a></li>
-				<li class="menubutton"><a href="/about.html">About Us</a></li>
-				<li class="menubutton"><a href="/gallery/">Gallery</a></li>
-				<li class="menubutton"><a href="/itinerary.html" class="active">Itinerary</a></li>
-				<li class="menubutton"><a href="/forms.html">Prices and Application</a></li>
-				<li class="menubutton"><a href="/contact.html">Contact Us</a></li>
-			</ul>
-		</nav>
+		<?php require './inc/menu.php' ?>
 		<div id="logo">
 			<h1><a href="/"><img src="/img/marabu-new.png" style="width:250px;height:99px;" /></a></h1>
 			<div dir="rtl">&#1502;&#1492;&nbsp;&#1512;&#64305;&#1493;&nbsp;&#1502;&#1506;&#64299;&#1497;&#1498;&nbsp;&#1492;&lsquo;</div>
@@ -336,7 +327,7 @@ Sherman Oaks, CA 91411</p></td>
 							<dt>Main Address</dt>
 							<dd>10714 Meadowhill Road</dd>
 							<dd>Silver Spring, MD 20901</dd>
-							<dt><span>Email:</span>&nbsp;&nbsp;<a href="/contact.html">campmarabu at aol.com</a></dt>
+							<dt><span>Email:</span>&nbsp;&nbsp;<a href="/contact.php">campmarabu at aol.com</a></dt>
 						</dl>
 					</div>
 					<div class="col-2">

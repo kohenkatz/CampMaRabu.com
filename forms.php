@@ -15,45 +15,30 @@
 	<div class="topbar fullwidth">&nbsp;</div>
 	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 	<header class="pageheader pagewidth clearfix">
-		<nav id="topmenu">
-			<ul>
-				<li class="menubutton"><a href="/">Home</a></li>
-				<li class="menubutton"><a href="/about.html">About Us</a></li>
-				<li class="menubutton"><a href="/gallery/">Gallery</a></li>
-				<li class="menubutton"><a href="/itinerary.html">Itinerary</a></li>
-				<li class="menubutton"><a href="/forms.html">Prices and Application</a></li>
-				<li class="menubutton"><a href="/contact.html">Contact Us</a></li>
-			</ul>
-		</nav>
+		<?php require './inc/menu.php' ?>
 		<div id="logo">
 			<h1><a href="/"><img src="/img/marabu-new.png" style="width:250px;height:99px;" /></a></h1>
 			<div dir="rtl">&#1502;&#1492;&nbsp;&#1512;&#64305;&#1493;&nbsp;&#1502;&#1506;&#64299;&#1497;&#1498;&nbsp;&#1492;&lsquo;</div>
 		</div>
 	</header>
 	<div role="main" class="pagebody clearfix">
-		<h2>Testimonials</h2>
+		<h2>Prices and Application</h2>
+		<p>The cost of Camp is $3,650. Camp fee includes all camp activities, food, laundry and air fare.</p>
+		<p>Join us for our fantastic optional fourth week, which includes sight-seeing Washington D.C., Maryland and Virginia. Our optional fourth week costs $500.</p>
 		<div>
-			<h3>Campers</h3>
+			<h3>Forms:</h3>
 			<ul>
-				<li><p>&ldquo;This camp is awesome and an eye opening experience.  It was the best summer ever!&rdquo;</p><div class="whosaid">Anshel, St. Louis</div></li>
-				<li><p>&ldquo;It was so difficult to sleep at night.  Not because the hotels weren&rsquo;t great but rather I was so excited about what we would be doing the next day!&rdquo;</p><div class="whosaid">Shlomo, Dallas</div></li>
-				<li><p>&ldquo;Thank you for teaching me so much about Tefilla, life in general and the importance of always making a Kiddush Hashem.&rdquo;</p><div class="whosaid">Huda, Monsey</div></li>
-				<li><p>&ldquo;I thank you for giving me the greatest summer ever!  I learned a lot in camp and I also got to see the beauty of Hashem.  I was also able to have fun doing other activities and making friends.&rdquo;</p><div class="whosaid">Jacob, Silver Spring</div></li>
-				<li><p>&ldquo;Thank you for an amazing and an inspirational summer.  I know I grew in many ways including Tefilla and Gemora.  During the school year I heard about camp but I never thought it would be this amazing!&rdquo;</p><div class="whosaid">Shaya, LA</div></li>
-				<li><p>&ldquo;Thanks for this super experience!  Nobody does a camp like this!  I learned a lot and saw incredible sights that I can apply to myself and my connection to Hashem.&rdquo;</p><div class="whosaid">Tzvi, Memphis</div></li>
+				<li><a href="/pdf/application.pdf">Application Form</a></li>
+				<li><a href="/pdf/medicalform.pdf">Medical Form</a></li>
+				<li><a href="/pdf/parasailingwaiver.pdf">Parasailing Waiver and Declaration of Fitness</a><br></li>
+				<li><a href="/packinglist.php">Suggested Packing List</a></li>
 			</ul>
 		</div>
-		<div>
-			<h3>Parents</h3>
-			<ul>
-				<li><p>&ldquo;My son had the most inspiring summer in his life.  The memories will live with him forever.&rdquo;</p><div class="whosaid">Sara G., Miami Beach</div></li>
-				<li><p>&ldquo;Nothing can be more uplifting than davening vasikin at the Grand Canyon&rdquo;</p><div class="whosaid">Rabbi F., Cleveland</div></li>
-				<li><p>&ldquo;This was the first summer our son was away from home.  We couldn’t have found a better program for him.  Words cannot express the amazing time Shmuel had, the places he saw and the friendships he made.&rdquo;</p><div class="whosaid">Mr. and Mrs. K., Atlanta</div></li>
-				<li><p>&ldquo;We are grateful to you for providing our son with such a special and meaningful trip.&rdquo;</p><div class="whosaid">Rabbi and Mrs. B., Monsey</div></li>
-				<li><p>&ldquo;You have given our son Dov something that will impact his life forever.  His Tefilla and appreciation for the words of Dovid Hamelech are now part of his Neshama.  Thank you!&rdquo;</p><div class="whosaid">Mr. and Mrs. R., Brooklyn</div></li>
-				<li><p>&ldquo;You have chosen great counselors as excellent role models who worked well together to ensure all went smoothly.  Every detail was cared for, for each individual camper!&rdquo;</p><div class="whosaid">Mrs. M., Silver Spring</div></li>
-				<li><p>&ldquo;All the sightseeing, hiking, biking etc. exceeded our expectations.  You truly showed the boys &lsquo;Ma Rabu Maasechu Hashem,&rsquo; through every activity, every day from davening on the beach or visiting the Grand Canyon&hellip; We cannot fully express our admiration to you and your wife Chani for doing such a professional outstanding job!&rdquo;</p><div class="whosaid">Rabbi and Mrs. A., Toronto</div></li>
-			</ul>
+		<p>All forms and payments should be mailed to:</p>
+		<div style="padding-left: 20px;">
+Rabbi Raphael Mendlowitz<br/>
+10714 Meadowhill Road<br/>
+Silver Spring, MD 20901
 		</div>
 	</div>
 	<footer class="pagefooter pagewidth">
@@ -66,7 +51,7 @@
 							<dt>Main Address</dt>
 							<dd>10714 Meadowhill Road</dd>
 							<dd>Silver Spring, MD 20901</dd>
-							<dt><span>Email:</span>&nbsp;&nbsp;<a href="/contact.html">campmarabu at aol.com</a></dt>
+							<dt><span>Email:</span>&nbsp;&nbsp;<a href="/contact.php">campmarabu at aol.com</a></dt>
 						</dl>
 					</div>
 					<div class="col-2">

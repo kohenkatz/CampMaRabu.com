@@ -15,16 +15,7 @@
 	<div class="topbar fullwidth">&nbsp;</div>
 	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 	<header class="pageheader pagewidth clearfix">
-		<nav id="topmenu">
-			<ul>
-				<li class="menubutton"><a href="/" class="active">Home</a></li>
-				<li class="menubutton"><a href="about.html">About Us</a></li>
-				<li class="menubutton"><a href="/gallery/">Gallery</a></li>
-				<li class="menubutton"><a href="/itinerary.html">Itinerary</a></li>
-				<li class="menubutton"><a href="/forms.html">Prices and Application</a></li>
-				<li class="menubutton"><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</nav>
+		<?php require './inc/menu.php' ?>
 		<div id="logo">
 			<h1><a href="/"><img src="/img/marabu-new.png" style="width:250px;height:99px;" /></a></h1>
 			<div dir="rtl">&#1502;&#1492;&nbsp;&#1512;&#64305;&#1493;&nbsp;&#1502;&#1506;&#64299;&#1497;&#1498;&nbsp;&#1492;&lsquo;</div>
@@ -84,7 +75,7 @@
 					<div class="textblock clearfix">
 						<img src="/img/home/img3.png" class="simpleboxshadow" alt="" title="" style="float: right; margin: 5px 0px 5px 10px; width: 90px;"/>
 						<p>Camp Ma Rabu is a non-stop, action packed adventure starting in LA. Some of our adventures will then include: <strong>Grand Canyon, Yosemite National Park, Bryce Canyon, Zion National Park, Universal Studios, Sequoia National Forest, Sea World, and More!</strong> Activities will include: Hiking, Motor Boating, Rappelling, Para Sailing, Bike tour on the Golden Gate Bridge, swimming and more! Lodging accommodations will be at comfortable motels, and transportation will be provided to all sites with all amenities.</p>
-						<div class="readmore"><a href="#">See the full itinerary &raquo;</a></div>
+						<div class="readmore"><a href="itinerary.php">See the full itinerary &raquo;</a></div>
 					</div>
 				</div>
 			</div>
@@ -111,13 +102,13 @@
 					<h2>Announcements</h2>
 					<div class="textblock clearfix">
 						<img src="/img/star.png" alt="" title="" style="float: left; padding: 5px 10px 5px 0px;"/>
-						<p><a href="/itinerary-2013.html">Our 2013 itinerary is up!</a><br/>
+						<p><a href="/itinerary.php">Our 2013 itinerary is up!</a><br/>
 						Learn about the great places we're going!</p>
 						<!--<div class="readmore"><a href="#">read more &raquo;</a></div>-->
 					</div>
 					<div class="textblock clearfix">
 						<img src="/img/star.png" alt="" title="" style="float: left; padding: 5px 10px 5px 0px;"/>
-						<p><a href="#">Summer 2012 Pictures!</a><br />
+						<p><a href="/gallery/">Summer 2012 Pictures!</a><br />
 						Pictures are up from Summer 2012.  Have a look at all the places we went and the fun that we had!</p>
 						<!--<div class="readmore"><a href="#">read more &raquo;</a></div>-->
 					</div>
@@ -145,7 +136,7 @@
 					</div>
 					<div class="textblock">
 						<p><strong>See all the great things our campers and parents have to say!</strong></p>
-						<div class="readmore"><a href="testimonials.html"><strong>All Testemonials</strong></a></div>
+						<div class="readmore"><a href="testimonials.php"><strong>All Testemonials</strong></a></div>
 					</div>
 				</div>
 				<div class="right_news_bot"></div>
@@ -164,7 +155,7 @@
 							<dt>Main Address</dt>
 							<dd>10714 Meadowhill Road</dd>
 							<dd>Silver Spring, MD 20901</dd>
-							<dt><span>Email:</span>&nbsp;&nbsp;<a href="/contact.html">campmarabu at aol.com</a></dt>
+							<dt><span>Email:</span>&nbsp;&nbsp;<a href="/contact.php">campmarabu at aol.com</a></dt>
 						</dl>
 					</div>
 					<div class="col-2">
