@@ -23,10 +23,15 @@
 	</header>
 	<div role="main" class="pagebody clearfix">
 		<h2>Prices and Application</h2>
-		<p>The cost of Camp is $3,650. Camp fee includes all camp activities, food, laundry and air fare.</p>
-		<p>Join us for our fantastic optional fourth week, which includes sight-seeing Washington D.C., Maryland and Virginia. Our optional fourth week costs $500.</p>
+		<h3>Prices</h3>
+		<p>The cost of Camp is <strong>$3,700</strong>. Camp fee includes all camp activities, food, laundry and air fare.</p>
+		<?php if (time() < 1358312340): ?>
+		<p style="font-size:larger">Early Bird Discount: Register by January 15, 2013 for <strong>$150 discount</strong>!</p>
+		<?php endif; ?>
+		<p>Join us for our fantastic optional fourth week, which includes sight-seeing Washington D.C., Maryland and Virginia. Our optional fourth week costs <strong>$500</strong>.</p>
+		<br>
+		<h3>Application Forms</h3>
 		<div>
-			<h3>Forms:</h3>
 			<ul>
 				<li><a href="/pdf/application.pdf">Application Form</a></li>
 				<li><a href="/pdf/medicalform.pdf">Medical Form</a></li>
