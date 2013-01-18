@@ -24,8 +24,8 @@
 		<div id="prew_box">
 			<div class="slider-wrapper theme-default">        
 				<div id="slider" class="nivoSlider">
-					<img src="/img/slides/408.jpg" alt="" />
 					<img src="/img/slides/bestgoingwest.jpg" alt="" />
+					<img src="/img/slides/408.jpg" alt="" />
 					<img src="/img/slides/bryce.jpg" alt="" />
 					<img src="/img/slides/DSC00052.jpg" alt="" />
 					<img src="/img/slides/DSC00074.jpg" alt="" />
@@ -57,7 +57,7 @@
 					<div class="textblock clearfix">
 						<p><strong>To view some of the excitement and the breathtaking sites, <a href="/gallery/">check out our photo gallery!</a></strong></p>
 						<img src="/img/home/img1.png" class="simpleboxshadow" alt="" title="" style="float: left; margin: 5px 10px 5px 0px;"/>
-						<p><strong>View our <a href="/gallery/">Summer 2011 Video</a>!</strong></p>
+						<p><strong>View our <a href="/gallery/#video2011">Summer 2011 Video</a>!</strong></p>
 						<p>Take a look around our site and see for yourself some of the great adventures we have planned for this summer. Join Camp Ma Rabu for the most exciting and fulfilling adventure of your life! We will embark on an inspiring journey exploring the majesty of our western states. Come and connect to the wonders of Hashem's creations in some of the most spectacular locales in North America.</p>
 						<br/>
 						<p>Camp Ma Rabu is a 19 day experience, with campers departing on<br/>
@@ -102,6 +102,10 @@
 					<h2>Announcements</h2>
 					<div class="textblock clearfix">
 						<img src="/img/star.png" alt="" title="" style="float: left; padding: 5px 10px 5px 0px;"/>
+						<p><a href="/forms.php">Register</a> by January 15, 2013 for the<br><strong>Early Bird Discount</strong>!</p>
+					</div>
+					<div class="textblock clearfix">
+						<img src="/img/star.png" alt="" title="" style="float: left; padding: 5px 10px 5px 0px;"/>
 						<p><a href="/itinerary.php">Our 2013 itinerary is up!</a><br/>
 						Learn about the great places we're going!</p>
 						<!--<div class="readmore"><a href="#">read more &raquo;</a></div>-->
@@ -136,7 +140,7 @@
 					</div>
 					<div class="textblock">
 						<p><strong>See all the great things our campers and parents have to say!</strong></p>
-						<div class="readmore"><a href="testimonials.php"><strong>All Testemonials</strong></a></div>
+						<div class="readmore"><a href="testimonials.php"><strong>All Testimonials</strong></a></div>
 					</div>
 				</div>
 				<div class="right_news_bot"></div>
