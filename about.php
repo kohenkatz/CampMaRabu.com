@@ -39,6 +39,11 @@
 		Cell: 301-928-0646<br />
 		Fax: 301-681-6018<br />
 		or email: campmarabu@aol.com</p>
+		<h2>Press</h2>
+		<ul>
+			<li><a href="/pdf/ma-rabu-2012-hamodia.pdf">Hamodia, August 2012</a></li>
+			<li><a href="/pdf/ma-rabu-2012-yated.pdf">Yated Ne'eman, August 2012</a></li>
+		</ul>
 	</div>
 	<footer class="pagefooter pagewidth">
 		<div class="row-top">
