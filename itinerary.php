@@ -22,298 +22,305 @@
 		</div>
 	</header>
 	<div role="main" class="pagebody clearfix">
-		<table border="0" cellpadding="5" cellspacing="0">
-                <tbody><tr> 
-                  <td width="130" valign="top" bgcolor="#3366CC" class="Normal"> 
-                    <p class="marabutext"><strong><font color="#FFFFFF">Date</font></strong></p></td>
-                  <td width="135" valign="top" bgcolor="#3366CC" class="Normal"> 
-                    <p class="marabutext"><strong><font color="#FFFFFF">Itinerary</font></strong></p></td>
-                  <td width="135" valign="top" bgcolor="#3366CC" class="Normal"> 
-                    <p class="marabutext"><font color="#FFFFFF"><strong>Accommodations</strong></font></p></td>
+		<table border="0" cellpadding="5" cellspacing="0" class="itinerary">
+            <thead>
+				<tr>
+                  <th>Date</th>
+                  <th>Itinerary</th>
+                  <th>Accommodations</th>
                 </tr>
+			</thead>
+			<tbody>
                 <tr> 
-                  <td width="130" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                    <p class="marabutext">Sunday, July 14</p></td>
-                  <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                    <p class="marabutext">Arrive in D.C.<br>
+                  <td>
+                    Sunday, July 14</td>
+                 <td>
+                    Arrive in D.C.<br>
 Spy Museum, Newseum, Monuments
-					</p></td>
-                  <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                    <p class="marabutext">10714 Meadowhill Road<br>
+					</td>
+                 <td>
+                    10714 Meadowhill Road<br>
 Silver Spring, MD 20901<br>
 301-681-3411<br>
-                    </p></td>
+                    </td>
                 </tr>
                 <tr>
-                  <td valign="top" bgcolor="#E9F3FF" class="Normal"><span class="marabutext">Monday, July 15</span></td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"><span class="marabutext">Washington 
-                      D.C.<br>
-Capitol tour, Holocaust Museum</span></td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"><span class="marabutext">Same</span></td>
+                  <td>Monday, July 15</td>
+                  <td>Washington D.C.<br>
+Capitol tour, Holocaust Museum</td>
+                  <td>Same</td>
                 </tr>
                 <tr>
-                  <td valign="top" bgcolor="#FFFFCC" class="Normal"><span class="marabutext">Tuesday, July 16</span></td>
-                  <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"><span class="marabutext"><em>Tisha B&rsquo;av programming</em></span></td>
-                  <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"><span class="marabutext">Same</span></td>
+                  <td>Tuesday, July 16</td>
+                  <td><em>Tisha B&rsquo;av programming</em></td>
+                  <td>Same</td>
                 </tr>
                 <tr>
-                  <td height="80" valign="top" bgcolor="#E9F3FF" class="Normal"><span class="marabutext">Wednesday, July 17</span></td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"><p class="marabutext">Luray caverns, white water rafting, bowling</p></td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"><span class="marabutext">Same</span></td>
-                </tr>
-                <tr bgcolor="#FFFFCC">
-                  <td valign="top" class="Normal"><span class="marabutext">Thursday, July 18</span></td>
-                  <td width="135" valign="top" class="Normal"><p class="marabutext">Ner Yisroel,<br>Baltimore Inner harbor - Aquarium, Baseball game</p></td>
-                  <td width="135" valign="top" class="Normal"><span class="marabutext" style="line-height:10.5pt">Same</span></td>
+                  <td>Wednesday, July 17</td>
+                  <td>Luray caverns, white water rafting, bowling</td>
+                  <td>Same</td>
                 </tr>
                 <tr>
-                  <td valign="top" bgcolor="#E9F3FF" class="Normal"><span class="marabutext">Friday, July 19</span></td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"><span class="marabutext">Great Falls</span></td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"><span class="marabutext">Same</span></td>
-                </tr>
-                <tr bgcolor="#FFFFCC">
-                  <td valign="top" class="Normal"><span class="marabutext">Shabbos Kodesh</span></td>
-                  <td width="135" valign="top" class="Normal"><span class="marabutext">Mendlowitz home</span></td>
-                  <td width="135" valign="top" class="Normal"><span class="marabutext">Same</span></td>
+                  <td>Thursday, July 18</td>
+                  <td>Ner Yisroel,<br>Baltimore Inner harbor - Aquarium, Baseball game</td>
+                  <td>Same</td>
                 </tr>
                 <tr>
-                  <td valign="top" bgcolor="#FFFFFF" class="Normal">&nbsp;</td>
-                  <td width="135" valign="top" bgcolor="#FFFFFF" class="Normal">&nbsp;</td>
-                  <td valign="top" bgcolor="#FFFFFF" class="Normal">&nbsp;</td>
+                  <td>Friday, July 19</td>
+                  <td>Great Falls</td>
+                  <td>Same</td>
+                </tr>
+                <tr>
+                  <td>Shabbos Kodesh</td>
+                  <td>Mendlowitz home</td>
+                  <td>Same</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
                 </tr>
                 <tr> 
-                  <td width="130" valign="top" bgcolor="#E9F3FF" class="Normal"><span class="marabutext"><strong>Sunday, July 21</strong></span></td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"><span class="marabutext">Depart to L.A.<br>
-				  Drive to San Simeon, CA</span></td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"><p class="marabutext">Sands by the Sea<br>
+                  <td><strong>Sunday, July 21</strong></td>
+                  <td>Depart to L.A.<br>
+				  Drive to San Simeon, CA</td>
+                  <td>Sands by the Sea<br>
 				  9355 Hearst Drive,<br>
 				  San Simeon, Ca 93452<br>
 				  800-444-0779
-				  </p></td>
+				  </td>
                 </tr>
                 <tr> 
-                  <td width="130" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                    <p class="marabutext">Monday, July 22</p></td>
-                  <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                    <p class="marabutext">Tour 
+                 <td>
+                    Monday, July 22</td>
+                 <td>
+                    Tour 
                   Hearst Castle <br>
                   Drive 
-                  to San Francisco                    </p></td>
-                  <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> <p class="marabutext"><span class="marabutext" style="line-height:normal">Radisson <br>
+                  to San Francisco                    </td>
+                 <td>Radisson <br>
 415-392-6700<br>
 250 Beach Street<br>
-San Francisco, CA 9413</span></p></td>
+San Francisco, CA 9413</td>
                 </tr>
                 <tr> 
-                  <td width="130" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                    <p class="marabutext">Tuesday, July 33</p>   </td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                    <p class="marabutext">Tour- 
+                 <td>
+                    Tuesday, July 33   </td>
+                 <td>
+                    Tour- 
                       Golden Gate Bridge<br>
                       Alcatraz<br>
                       Fisherman's 
   Wharf<br>
   Bike 
-  tour</p> 
-                  <p class="marabutext">&nbsp;</p></td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                    <p class="marabutext">Cedar Lodge<br>
+  tour 
+                  &nbsp;</td>
+                 <td>
+                    Cedar Lodge<br>
 209-379-2612<br>
 9966 Highway 140<br>
-El Portal, CA 95318</p> 
-                  <p class="marabutext">&nbsp;</p>   </td>
+El Portal, CA 95318 
+                  &nbsp;   </td>
                 </tr>
                 <tr> 
-                  <td width="130" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                  <p class="marabutext">Wednesday, July 24</p></td>
-                  <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                    <p class="marabutext">Drive 
+                 <td>
+                  Wednesday, July 24</td>
+                 <td>
+                    Drive 
                       to Yosemite<br>
                       Tour 
-                    Yosemite                    </p></td>
-                  <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                    <p class="marabutext">American Best Watertree Inn<br>
+                    Yosemite                    </td>
+                 <td>
+                    American Best Watertree Inn<br>
 559-222-4445<br>
 4141 North Blackstone Ave.<br>
-Fresno, CA 93726</p></td>
+Fresno, CA 93726</td>
                 </tr>
                 <tr> 
-                  <td width="130" valign="top" bgcolor="#E9F3FF" class="Normal"><p class="marabutext">Thursday, July 25</p></td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"> <p class="marabutext">Drive 
+                  <td>Thursday, July 25</td>
+                 <td>Drive 
                       to Grand Sequoia National Park<br>
                       Esrog Orchard<br>
 Boomers- GoCarting and Arcade<br>
-Palm Springs Aerial Tramway</p></td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                    <p class="marabutext">Days Inn<br>
+Palm Springs Aerial Tramway</td>
+                 <td>
+                    Days Inn<br>
 559-732-5611<br>
 4645 West Nobel Ave.<br>
-Visalia, CA 93277</p></td>
+Visalia, CA 93277</td>
                 </tr>
                 <tr> 
-                  <td width="130" valign="top" bgcolor="#FFFFCC" class="Normal"> <p class="marabutext">Friday, July 26</p></td>
-                  <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                    <p class="marabutext">Drive 
+                 <td>Friday, July 26</td>
+                 <td>
+                    Drive 
                       to L.A.<br>
                       Prepare 
                       for Shabbos                      <br>
-                  </p></td>
-                  <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                    <p class="marabutext">L.A. Community<br>
+                  </td>
+                 <td>
+                    L.A. Community<br>
 Mr. Chopp <br>
 323-936 6070<br>
 439 North Formosa LA.
 CA 90036<br>
 <br>
-                    </p></td>
+                    </td>
                 </tr>
                 <tr> 
-                  <td width="130" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                    <p class="marabutext">Shabbos Kodesh</p></td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                    <p class="marabutext">With L.A. community</p></td>
-                  <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                    <p class="marabutext">Same as above</p></td>
+                 <td>
+                    Shabbos Kodesh</td>
+                 <td>
+                    With L.A. community</td>
+                 <td>
+                    Same as above</td>
                 </tr>
+			</tbody>
+		</table>
+		<table border="0" cellpadding="5" cellspacing="0" class="itinerary">
+            <thead>
+				<tr> 
+                  <th width="130">Date</th>
+                  <th width="135">Itinerary</th>
+                  <th width="135">Accommodations</th>
+                </tr>
+			</thead>
+			<tbody>
                 <tr> 
-                  <td width="130" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                    <p class="marabutext">Sunday, July 28</p></td>
-                  <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                    <p class="marabutext">Drive 
+                  <td> 
+                    Sunday, July 28</td>
+                  <td> 
+                    Drive 
                       to Mesquite, NV<br>
-                  Bowling tournement                    </p></td>
-                  <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                    <p class="marabutext">Virgin River <br>
+                  Bowling tournement                    </td>
+                  <td> 
+                    Virgin River <br>
 702-346-7777<br>
 100 East Pioneer Blvd.<br>
-Mesquite, NV 89027 </p></td>
+Mesquite, NV 89027 </td>
                 </tr>
-                <tr bgcolor="#E9F3FF"> 
-                  <td width="130" valign="top" class="Normal"> 
-                    <p class="marabutext">Monday, July 29</p></td>
-                  <td width="135" valign="top" class="Normal"> 
-                    <p class="marabutext">Drive 
+                <tr> 
+                  <td> 
+                    Monday, July 29</td>
+                  <td> 
+                    Drive 
                       to Zion<br>
 Tour and hike in Zion<br>
 Pink Sand Dunes<br>
 Paint Ball and Zip Line<br>
 Drive 
-                    to Page, AZ </p></td>
-                  <td width="135" valign="top" class="Normal"> 
-                    <p class="marabutext">Bobbon Inn<br>
+                    to Page, AZ </td>
+                  <td>
+                    Bobbon Inn<br>
 236 Highway 89 North<br>
 Kanab, Utah 84741<br>
-435-644-3069</p></td>
+435-644-3069</td>
                 </tr>
-                <tr bgcolor="#FFFFCC"> 
-                  <td width="130" valign="top" class="Normal"> 
-                    <p class="marabutext">Tuesday, July 30</p></td>
-                  <td width="135" valign="top" class="Normal"> 
-                    <p class="marabutext">Drive 
-                      to Bryce<br>
-Tour 
-                    Bryce Canyon </p></td>
-                  <td width="135" valign="top" class="Normal"> 
-                    <p class="marabutext"><span class="marabutext" style="line-height:normal">Travel Lodge, 207 North Lake Powell Boulevard, Page, AZ,  86040.<br>
-928-645-2451</span></p></td>
+                <tr>
+                  <td>
+                    Tuesday, July 30</td>
+                  <td>
+                    Drive to Bryce<br>
+					Tour Bryce Canyon </td>
+                  <td>
+                    Travel Lodge, 207 North Lake Powell Boulevard, Page, AZ,  86040.<br>
+					928-645-2451</td>
                 </tr>
-                <tr bgcolor="#E9F3FF"> 
-                  <td width="130" valign="top" class="Normal"> 
-                    <p class="marabutext">Wednesday, July 31</p></td>
-                  <td width="135" valign="top" class="Normal"> 
-                    <p class="marabutext">Lake Powell- Motor Boating<br>
+                <tr>
+                  <td>
+                    Wednesday, July 31</td>
+                  <td>
+                    Lake Powell- Motor Boating<br>
                       &amp; tubing<br>
                       Drive 
                       to Grand Canyon<br>
-                    </p></td>
-                  <td width="135" valign="top" class="Normal"> 
-                    <p class="marabutext"><span class="marabutext" style="line-height:normal">Best Western Squire Inn<br>
+                    </td>
+                  <td>Best Western Squire Inn<br>
 928-638-2681<br>
 Highway 64<br>
-Grand Canyon, AZ 86023</span></p></td>
+Grand Canyon, AZ 86023</td>
                 </tr>
-                <tr bgcolor="#FFFFCC"> 
-                  <td width="130" valign="top" class="Normal"> 
-                    <p class="marabutext">Thursday August 1</p></td>
-                  <td width="135" valign="top" class="Normal"> 
-                    <p class="marabutext">Tour and hike The Grand Canyon</p></td>
-                  <td width="135" valign="top" class="Normal"> 
-                    <p class="marabutext">Same 
-                      as above</p></td>
+                <tr>
+                 <td>
+                    Thursday August 1</td>
+                 <td>
+                    Tour and hike The Grand Canyon</td>
+                 <td>
+                    Same 
+                      as above</td>
                 </tr>
 				<tr> 
-                    <td width="130" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                      <p class="marabutext">Friday, August 2</p></td>
-                    <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                      <p class="marabutext">Drive to Scottsdale, AZ<br>
+                   <td>
+                      Friday, August 2</td>
+                   <td>
+                      Drive to Scottsdale, AZ<br>
                         Jeeping in Sedona<br>
-Prepare for Shabbos                      </p></td>
-                    <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                      <p class="marabutext">Fairfield Inn<br>
+Prepare for Shabbos                      </td>
+                   <td>
+                      Fairfield Inn<br>
 13440 N Scottsdale Road<br>
 Scottsdale, AZ 85254<br>
-(480) 483-0042</p></td>
+(480) 483-0042</td>
                   </tr>
                   <tr> 
-                    <td width="130" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                      <p class="marabutext">Shabbos Kodesh</p></td>
-                    <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                      <p class="marabutext">With the Scottsdale  Community</p></td>
-                    <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                      <p class="marabutext">Same as above</p></td>
+                   <td>
+                      Shabbos Kodesh</td>
+                   <td>
+                      With the Scottsdale  Community</td>
+                   <td>
+                      Same as above</td>
                   </tr>
                   <tr> 
-                    <td width="130" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                      <p class="marabutext">Sunday, August 4</p></td>
-                    <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                      <p class="marabutext">Drive to San Diego, CA</p></td>
-                    <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                      <p class="marabutext">Comfort Inn<br>
+                   <td>
+                      Sunday, August 4</td>
+                   <td>
+                      Drive to San Diego, CA</td>
+                   <td>
+                      Comfort Inn<br>
                         632 E Street,<br>
                     Chula Vista, CA, 91910<br>
-619-426-2500</p></td>
+					619-426-2500</td>
                   </tr>
                   <tr> 
-                    <td width="130" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                      <p class="marabutext">Monday, August 5</p></td>
-                    <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                      <p class="marabutext">Sea World</p></td>
-                    <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                      <p class="marabutext">Same as above</p></td>
+                   <td>
+                      Monday, August 5</td>
+                   <td>
+                      Sea World</td>
+                   <td>
+                      Same as above</td>
                   </tr>
                   <tr> 
-                    <td width="130" height="28" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                      <p class="marabutext">Tuesday, August 6</p></td>
-                    <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                      <p class="marabutext">Para Sailing<br>
-                        Return to L.A. </p></td>
-                    <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                      <p class="marabutext">Best Western Carriage Inn<br>
+                    <td>
+                      Tuesday, August 6</td>
+                   <td>
+                      Para Sailing<br>
+                        Return to L.A. </td>
+                   <td>
+                      Best Western Carriage Inn<br>
 818-787-2300<br>
 5525 Sepulveda Blvd.<br>
-Sherman Oaks, CA 91411</p></td>
+Sherman Oaks, CA 91411</td>
                   </tr>
                   <tr> 
-                    <td width="130" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                      <p class="marabutext">Wednesday, August 7</p></td>
-                    <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                      <p class="marabutext">Universal Studios<br>
+                   <td>
+                      Wednesday, August 7</td>
+                   <td>
+                      Universal Studios<br>
                         Siyum at Nagila Restaurant<br>
-                      </p></td>
-                    <td width="135" valign="top" bgcolor="#FFFFCC" class="Normal"> 
-                      <p class="marabutext">Same as above</p></td>
+                      </td>
+                   <td>
+                      Same as above</td>
                   </tr>
                   <tr> 
-                    <td width="130" valign="top" bgcolor="#E9F3FF" class="Normal"><p class="marabutext">Thursday, 
-                        August 8</p> 
-                      <p class="marabutext">&nbsp;</p></td>
-                    <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal"> 
-                      <p class="marabutext">Los Angeles<br>
+                    <td>Thursday, 
+                        August 8
+					</td>
+                   <td>
+                      Los Angeles<br>
                       Return Home<br>
                       Pick up at Mendlowitz home<br>
-  or airport 
-  after 10:30 p.m.</p></td>
-                    <td width="135" valign="top" bgcolor="#E9F3FF" class="Normal">&nbsp;                                                            </td>
+					  or airport after 10:30 p.m.
+					</td>
+                    <td>&nbsp;</td>
                   </tr>
               </tbody></table>
 	</div>
