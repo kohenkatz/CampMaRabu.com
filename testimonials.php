@@ -39,7 +39,7 @@
 			<ul>
 				<li><p>&ldquo;My son had the most inspiring summer in his life.  The memories will live with him forever.&rdquo;</p><div class="whosaid">Sara G., Miami Beach</div></li>
 				<li><p>&ldquo;Nothing can be more uplifting than davening vasikin at the Grand Canyon&rdquo;</p><div class="whosaid">Rabbi F., Cleveland</div></li>
-				<li><p>&ldquo;This was the first summer our son was away from home.  We couldn’t have found a better program for him.  Words cannot express the amazing time Shmuel had, the places he saw and the friendships he made.&rdquo;</p><div class="whosaid">Mr. and Mrs. K., Atlanta</div></li>
+				<li><p>&ldquo;This was the first summer our son was away from home.  We couldn't have found a better program for him.  Words cannot express the amazing time Shmuel had, the places he saw and the friendships he made.&rdquo;</p><div class="whosaid">Mr. and Mrs. K., Atlanta</div></li>
 				<li><p>&ldquo;We are grateful to you for providing our son with such a special and meaningful trip.&rdquo;</p><div class="whosaid">Rabbi and Mrs. B., Monsey</div></li>
 				<li><p>&ldquo;You have given our son Dov something that will impact his life forever.  His Tefilla and appreciation for the words of Dovid Hamelech are now part of his Neshama.  Thank you!&rdquo;</p><div class="whosaid">Mr. and Mrs. R., Brooklyn</div></li>
 				<li><p>&ldquo;You have chosen great counselors as excellent role models who worked well together to ensure all went smoothly.  Every detail was cared for, for each individual camper!&rdquo;</p><div class="whosaid">Mrs. M., Silver Spring</div></li>
