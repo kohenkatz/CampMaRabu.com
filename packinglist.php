@@ -45,8 +45,6 @@
 		<li>2 Tzitzis</li>
 		<li>2 Yarmulkes</li>
 		<li>1 Sun hat</li>
-		<li>1 weekday davening hat: optional<br>
-		    (no hat box)</li>
 		<li>Tefillin</li>
 		<li>Pocket Siddur</li>
 		<li>1 Toothbrush</li>
@@ -61,6 +59,8 @@
 		<li>Camera</li>
 		<li>Chapstick</li>
 		<li>Crocs</li>
+		<li>1 weekday davening hat: optional<br>
+		    (no hat box)</li>
 		<li class="big">One backpack for carry-on and Tefillin.<br>
 		    <span class="note">The larger Camelbaks<sup>TM</sup> are available (See: <a href="http://www.sunnysports.com/Cat/Context_2200/Hydration_and_Drinking/2210.html#!1" target="_blank">sunnysports.com</a> for good prices) and can also be used as a backpack.</span></li>
 		<li class="big">Stamps, paper, pen, envelopes, and addresses of people who want to hear from you!</li>
