@@ -232,33 +232,20 @@ foreach ($vals as $val) {
 
         }
 }
-echo "<h2>Summer Highlights Photo Gallery</h2><br/>";
+echo "<h2>Summer Highlights Photo Gallery</h2><div style=\"float:right; margin-top:-26px;\"><a href=\"#videos\">View Highlight Videos Below &#x25BC;</a></div><br/>";
 //echo "<div id='title'><span style='font-size: 18px; font-weight: bold;'>$FILTER $LANG_GALLERY</span><span style='font-size: 14px; color: #B0B0B0; margin-left: 10px;'>$total_images $LANG_PHOTOS_IN $album_count $LANG_ALBUMS</span></div>\n";
 echo $out;
 echo "<div id='pwafooter'>$LANG_GENERATED <a href='http://code.google.com/p/pwaplusphp/'>PWA+PHP</a> v" . $THIS_VERSION . ". ";
 
-# Should we check for updates every month? Get this value from config.php
-if ($CHECK_FOR_UPDATES == "TRUE") {
-	# Local file where we record the current version number (not THIS_VERSION)
-	$update_file = "update_exists.txt";
-	
-	# Figure out what day of the month it is
-	$DAY_OF_MONTH = date("d");	
-
-	# If it's the 7th of the month, check the server for updates
-	if ($DAY_OF_MONTH == "7") {
-		include("updates.php");
-	# Otherwise, check if we have a local file with current version
-	} else if (file_exists($update_file)) {
-		$version = file_get_contents($update_file);
-		# If the local file says our version is old, print the update message.
-		if ($version > $THIS_VERSION) {
-			echo "<a href='http://pwaplusphp.googlecode.com/files/pwa+php_v$version.tar'>$LANG_GET v$version!</a>";
-		}
-	}	
-
-}
 echo "</div>";
+
+?>
+<br style="clear:both">
+<h2 id="videos">Summer Highlights Video Gallery</h2>
+<h3 id="video2011" style="margin-top: 4px">Summer 2011</h3>
+<iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/SJnbsR-TLnY?rel=0" frameborder="0" allowfullscreen></iframe>
+<?php
+
 #----------------------------------------------------------------------------
 # Output footer if required
 #----------------------------------------------------------------------------
