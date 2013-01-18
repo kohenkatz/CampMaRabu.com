@@ -165,7 +165,7 @@ body {
 	}
 }
 
-.row-top {width:100%;padding:33px 0 42px;}
+.row-top {width:100%;padding:33px 0 42px;background:rgba(255,255,255,0.6)}
 .row-padding {padding:0 62px}
 .col-1, .col-2, .col-3, .col-4  {float:left}
 .list-services, .list-1 { padding: 0;}
@@ -181,10 +181,10 @@ body {
 .list-1 li a:hover {text-decoration:underline}
 
 .indent3 {padding-top:28px; text-align: right;}
-.footer-logo {display:block;color:#ccc;font-size:30px;line-height:1em;text-transform:uppercase;letter-spacing:-1px;font-weight:400;margin-bottom:5px}
-.footer-logo strong {color:#ccc;text-transform:none;display:inline-block}
-.phone {display:inline-block;font-size: 24px;line-height:1.2em;color:#ccc;letter-spacing:-1px;padding-left:5px}
-.phone strong {color:#ccc}
+.footer-logo {display:block;color:#333;font-size:30px;line-height:1em;text-transform:uppercase;letter-spacing:-1px;font-weight:400;margin-bottom:5px}
+.footer-logo strong {color:#333;text-transform:none;display:inline-block}
+.phone {display:inline-block;font-size: 24px;line-height:1.2em;color:#666;letter-spacing:-1px;padding-left:5px}
+.phone strong {color:#666}
 .col-1 {width:190px;margin-right:55px}
 .col-2 {width:110px;margin-right:55px}
 .col-3 {width:140px;margin-right:65px}
@@ -204,6 +204,34 @@ body {
 	}
 	li.big {
 		width: 100%;
+	}
+}
+
+/** Itinerary */
+
+.itinerary {
+	float: left;
+	width: 45%;
+	margin-right: 20px;
+	th {
+		//Same as top bar
+		background-color: #f87a14; // Old browsers
+		$experimental-support-for-svg: true; // IE9 SVG, doesn't need conditional override of 'filter' to 'none' because we only apply filter conditionally to 6-8
+		@include background-image(linear-gradient(top, #f87a14 0%,#f87a14 12%,#f17714 24%,#d9680c 51%,#bf5905 76%,#b85504 86%,#ae4f00 100%));
+		color: #fff;
+	}
+	tbody {
+		tr:nth-child(odd) td {
+			background-color:#ffc;
+		}
+		tr:nth-child(even) td {
+			background-color:#E9F3FF;
+		}
+		td {
+			vertical-align: top;
+			min-height: 30px;
+			padding: 5px;
+		}
 	}
 }
 
